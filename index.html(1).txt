@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord サーバー参加ツール</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Discord サーバー参加ツール</h1>
+    <form id="joinForm">
+        <label for="token">Discord アカウントトークン:</label>
+        <input type="text" id="token" name="token" placeholder="例: MTAxMjM0NTY3ODkxMjM0NTY3.example_token" required><br><br>
+        
+        <label for="inviteLink">招待リンク:</label>
+        <input type="text" id="inviteLink" name="inviteLink" placeholder="例: https://discord.gg/invitecode" required><br><br>
+        
+        <button type="submit">サーバーに参加</button>
+    </form>
+    
+    <div id="result"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
